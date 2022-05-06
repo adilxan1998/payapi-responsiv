@@ -1,0 +1,138 @@
+
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__box {
+  max-width: 546px;
+}
+
+.hero__title {
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  font-family: 'DM Serif Display';
+  font-size: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.553846px;  
+  color: #36536B;
+}
+
+.hero__form {
+  position: relative;
+  max-width: 445px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+}
+
+.hero__input {
+  max-width: 445px;
+  height: 48px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  margin-right: 35px;
+  margin-left: 30px;
+}
+
+.hero__button {
+  position: absolute;
+  margin-left: 273px;
+}
+
+.hero__text {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6C8294;
+}
+
+.hero__span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6C8294;
+}
+
+.hero__img {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 925px) {
+  body {
+    background-position: calc(50%) -500px;
+  }
+  
+  .hero__inner {
+    flex-direction: column-reverse;
+  }
+
+  .hero__box {
+    max-width: 573px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+    line-height: 56px;
+    max-width: 573px;
+    text-align: center;
+  }
+
+  .hero__form {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__text {
+    text-align: center;
+  }
+
+  .hero__img {
+    width: 190px;
+    height: 295px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and(max-width: 485px) {
+  .hero__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .hero__form {
+    display: block;
+  }
+
+  .hero__input {
+    max-width: 100%;
+  }
+
+  .hero__button {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .hero__text {
+    margin-top: 80px;
+  }
+}

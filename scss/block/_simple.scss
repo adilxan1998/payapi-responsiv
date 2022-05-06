@@ -1,0 +1,86 @@
+.simple__inner {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simple__box {
+  max-width: 445px;
+
+}
+
+.simple__title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;  
+  color: #36536B;
+}
+
+.simple__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+}
+
+.simple__box-tel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.simple__img {
+  margin-right: 10px;
+}
+
+@media only screen and(max-width: 1045px) {
+  .simple__inner {
+    flex-direction: column-reverse;
+  }
+
+  .simple__box-tel {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .simple__box {
+    max-width: 573px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and(max-width: 900px) {
+  .simple__box-tel {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .simple__img {
+    max-width: 168px;
+    height: 320px;
+  }
+}
+
+@media only screen and(max-width: 600px) {
+  .simple__inner {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .simple__img {
+    max-width: 140px;
+    max-height: 260px;
+  }
+
+  .simple__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
